@@ -15,15 +15,16 @@ header {
 	color: #ffffff;
 }
 
-h1 {
-	font-size: 28px;
+h2 {
+	font-size: 24px;
 	font-style: italic;
-	font-weight: regular;
+	font-weight: lighter;
+	color: #afdbfa;
 
 h3 {
 	font-size: 12px;
 	font-weight: lighter;
-	color: #0000FF;
+	color: #696e70;
 }
 li {
 	padding: 10px;
