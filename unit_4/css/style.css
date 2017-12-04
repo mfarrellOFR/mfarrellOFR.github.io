@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Spectral+SC');
+
+*	{
+	padding: 0px;
+	margin: 0;
+}
+
+/*	font-family: 'Raleway', sans-serif;
+    font-family: 'Vollkorn SC', serif;*/
+
+body {
+	font-family: 'Raleway', serif;
+	font-size: 16px
+	font-weight:normal;
+
+}
+
+header {
+	background-color: #ffffff;
+	padding: 10px;
+
+}
+section{
+	font-family: 'Raleway', serif;
+}
+main{
+	text-align: left;
+
+
+}
+footer{
+	text-align: center; 
+	background-color: #0099cc;
+	height: 30px;
+	padding: 10px;
+}
+
+h1{
+	font-size: 3em;
+	font-weight: 400;
+	letter-spacing: 1px;
+
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 1.75em;
+
+
+
+
+	
+}
+
+h3 {
+	font-size: 1.0em;
+	line-height: 1.5em;
+	font-weight: 300;
+	letter-spacing: 1px;
+	
+}
+
+li {
+	font-size: 1em;
+	padding: 5px;
+	text-decoration: none;
+
+}
+a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav {
+	font-size: 1em;
+	color: ##333366;
+	margin: 20px;
+	padding: 10px;
+	float: right;
+}
+.sitelogo{
+	font-family: 'Spectral SC';
+	font-size: 1.75em;
+	font-weight: 600;
+	color: #cc0033;
+	padding: 15px;
+	float: left;
+}
+
+.lander{
+	background:url(../assets/EasternBay.jpg) no-repeat top center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 480px;
+	position: relative;
+}
+
+.lander-text{
+	font-family: 'Spectral SC';
+	height: 200px;
+	color: #0099cc;
+	position: absolute;
+	top: 30px; 
+	left: 30px;
+
+}
+
+.lander-text2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+	line-height: 2.25em;
+	font-weight: 400;
+	color: #333366;
+	height: 200px;
+	position: absolute;
+	top: 60px; 
+	left: 40px;
+
+}
+.clearfloat{
+	clear: both;
+}
+
+.navlinks{
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	color: #330000;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding: 20px;
+    margin: 0px;
+    border:none;  
+}
+
+.design{
+	text-align: center;
+	height: 20em;
+	background-color: #333366;	
+ 	position: relative;
+	text-decoration: none;
+
+}
+.art{
+	text-align: center;
+ 	height: 20em;
+ 	position: relative;
+ 	background-color: #ffffcc;
+}
+
+.art-text{
+	color: #333366;
+	line-height: 1.5em;
+}
+
+.footer{
+	color: #ffffff;
+}
