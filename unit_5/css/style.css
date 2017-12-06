@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Spectral+SC');
+
+body {
+	font-family: 'Raleway', serif;
+	text-align: center;
+	background-color: black;
+}
+
+header {
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+article {	
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer{
+	background-color: #FF957E;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+a{
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+h1{
+	font-size: 3em;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+h2 {
+	font-size: 2em;	
+	font-weight: 600;	
+}
+
+h3 {
+	font-style: italic;	
+	font-weight: 400;
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+.sitelogo{
+	text-transform: uppercasae
+	font-size: 1.75em;
+	font-weight: 600;
+	color: #cc0033;
+	float: left;
+}
+
+.navheader{
+	text-align: right;
+	float: right;
+}
+.navfooter{
+		text-align: center;
+		margin-top: 10px;
+}
+
+.sitelogo{
+	font-family: 'Spectral SC';
+	font-size: 1.75em;
+	font-weight: 600;
+	color: #cc0033;
+	float: left;
+}
+
+.lander{
+	background:url(../images/landerimage.jpg) no-repeat top center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 480px;
+	position: relative;
+}
+
+.lander-text{
+	font-family: 'Spectral SC';
+	height: 200px;
+	color: #0099cc;
+}
+
+.lander-text2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+	line-height: 2.25em;
+	font-weight: 400;
+	color: #333366;
+}
+
+.clearfloat{
+	clear: both;
+}
+
+#navlinks{
+	text-decoration: none;
+	color: #330000;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+
+} 
+
+.design{	
+}
+
