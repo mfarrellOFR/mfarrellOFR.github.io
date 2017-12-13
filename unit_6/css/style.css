@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Spectral+SC');
+
+*	{
+	padding: 0px;
+	margin: 0;
+}
+
+/*	font-family: 'Raleway', sans-serif;
+    font-family: 'Vollkorn SC', serif;*/
+
+body {
+	font-family: 'Raleway', serif;
+	font-size: 16px
+	font-weight:normal;
+
+}
+
+header {
+	background-color: #ffffff;
+	padding: 10px;
+
+}
+section{
+	font-family: 'Raleway', serif;
+}
+
+article{
+		padding: 20px;
+}
+main{
+	text-align: left;
+}
+
+footer{
+	text-align: left; 
+	background-color: #6e6e6e;
+	padding: 40px;
+}
+
+h1{
+	font-size: 3em;
+	font-weight: 500;
+	letter-spacing: 0px;
+
+}
+
+h2 {
+	font-size: 2.0em;
+	font-weight: 600;
+	letter-spacing: 0px;
+	line-height: 1.5em;	
+}
+
+h3 {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+h4 {
+	font-size: 1.25em;
+	
+	font-weight: 300;
+	font-style: italic;
+	letter-spacing: 1px;
+	padding-bottom: 10px; 	
+}
+p {
+	line-height: 1.25em;
+}
+
+
+nav {
+	font-size: 1.25em;
+	margin: 20px;
+	padding: 10px;
+	float: right;
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.sitelogo{
+	font-family: 'Spectral SC';
+	font-size: 2em;
+	font-weight: 600;
+	color: #dd0000;
+	padding: 20px;
+	float: left;
+}
+
+.lander{
+	background:url(../assets/) no-repeat top center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #87C8FC;
+	height: 480px;
+	position: relative;
+}
+
+.lander-text{
+	font-family: 'Spectral SC';
+	height: 200px;
+	color: #fff;
+	position: absolute;
+	top: 30px; 
+	left: 30px;
+
+}
+
+.lander-text2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+	line-height: 2.25em;
+	font-weight: 400;
+	color: #333366;
+	height: 200px;
+	position: absolute;
+	top: 60px; 
+	left: 40px;
+
+}
+.clearfloat{
+	clear: both;
+}
+
+.navlinks{
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding: 20px;
+    margin: 0px;
+    border:none;  
+}
+
+.article {
+	width: 44%;
+ 	padding: 3%;
+ 	float: left;
+}
+
+.nav{
+	color: #ffffcc;
+}
+
+#design{
+	text-align: left;
+	background-color: #CEFED1;	
+ 	position: relative;
+	text-decoration: none;
+}
+
+#art{
+	text-align: left;
+ 	position: relative;
+ 	background-color: #ffffcc;
+}
+#two-column{
+	background-color: #ccc;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+   background-color:;
+    margin: 20px;
+    padding: 0 10px; 
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;  
+    margin: 20px;
+    padding: 10px;
+    float: right;
+    width: 62%;
+}
+.clearfix:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+}
+#about-img{
+	height: 100px;
+}
+
+.footer{
+	color: #ffffff;
+	float: right;
+}
