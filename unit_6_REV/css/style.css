@@ -21,9 +21,6 @@ header {
 	padding: 10px 0px;
 
 }
-section{
-	font-family: 'Roboto', sans-serif;
-}
 
 article{
 		padding: 20px;
@@ -81,7 +78,7 @@ nav {
 	float: right;
 }
 nav a{	
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 400;
@@ -92,15 +89,14 @@ nav a{
 }
 
 a{
-	color: #000000;
+	color: ##3366cc;
 	text-decoration: none;
 	padding: 10px;
 }
 
 .sitelogo{
-	font-family:;
+	font-family: 'Merriweather', serif;
 	font-size: 2em;
-
 	color: #dd0000;
 	padding: 20px;
 	float: left;
@@ -119,25 +115,26 @@ a{
 }
 
 .lander-text {
-	font-family: 'Catamaran', sans-serif;
-	font-size: 3.5em;
-	font-style: 400;	
+    font-family: 'Catamaran', serif;
+	font-size: 3.75em;
+	font-weight: 300;	
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	height: 210px;
-	color: #00ffff;
+	color: #ffff33;
 	position: relative;
-	top: 140px;
+	top: 130px;
 }
 
 
 .lander-text2{	
+	font-family: 'Catamaran', serif;
 	font-size: 2.25em;
-	font-weight: 400;
+	font-weight: 300;
 	letter-spacing: 1px;
 	text-transform: lowercase;
 	color: #fff;
-	top: 20px;
+	top: 40px;
 }
 
 .clearfloat{
@@ -154,7 +151,7 @@ a{
 	color: #ffffcc;
 }
 .nav a{
-	color: #F780B6;
+	color: #99ccff;
 }
 
 .artwork{
