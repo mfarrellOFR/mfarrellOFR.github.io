@@ -11,19 +11,19 @@ font-family: 'Vollkorn SC', serif;*/
 
 body {
 	font-family: 'Roboto', sans-serif;
-	font-size: 16px
-
-
+	font-size: 15px
 }
 
 header {
 	background-color: #ffffff;
 	padding: 10px 0px;
-
+}
+section {
+ 	width: 100%;
 }
 
 article{
-		padding: 20px;
+	padding: 20px;
 }
 main{
 	text-align: center;
@@ -35,14 +35,15 @@ footer{
 	padding: 40px;
 }
 
+strong{
+	font-weight: 900;
+	color: #ffff99;
+}
+
 h1{
 	font-size: 3em;
 	font-weight: 700;
 	letter-spacing: 3px;
-}
-
-strong{
-	font-weight: 900;
 }
 
 h2 {
@@ -53,23 +54,23 @@ h2 {
 }
 
 h3 {
-	font-size: 1.5em;
+	font-size: 1.25em;
 	line-height: 1.5em;
 	font-weight: 400;
-	letter-spacing: 1px;
+	color: #dd0000;
+	padding-bottom: 5px;
 }
 
 h4 {
-	font-size: 1em;	
+	font-size: 1.25em;	
     font-weight: 300;
 	font-style: italic;
-	letter-spacing: 1px;
-	padding-bottom: 10px; 	
+	color: #565656;
+	padding: 10px 0px 5px 10px; 	
 }
 p {
 	line-height: 1.25em;
 }
-
 
 nav {
 	font-size: 1em;
@@ -118,7 +119,7 @@ a{
     font-family: 'Catamaran', serif;
 	font-size: 3.75em;
 	font-weight: 300;	
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	text-transform: uppercase;
 	height: 210px;
 	color: #ffff33;
@@ -129,9 +130,7 @@ a{
 
 .lander-text2{	
 	font-family: 'Catamaran', serif;
-	font-size: 2.25em;
-	font-weight: 300;
-	letter-spacing: 1px;
+	font-size: 2.5em;
 	text-transform: lowercase;
 	color: #fff;
 	top: 40px;
@@ -155,8 +154,13 @@ a{
 }
 
 .artwork{
-	width: 25%;
- 	padding: 2%;
+	width: 24%;
+ 	padding: 3%;
+ 	float: left;
+ }
+ .artwork-text{
+	width: 26%;
+ 	padding: 3%;
  	float: left;
  }
 
