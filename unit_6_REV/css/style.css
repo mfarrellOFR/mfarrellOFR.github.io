@@ -11,7 +11,7 @@ font-family: 'Vollkorn SC', serif;*/
 
 body {
 	font-family: 'Roboto', sans-serif;
-	font-size: 15px
+	font-size: 16px
 }
 
 header {
@@ -41,21 +41,21 @@ strong{
 }
 
 h1{
-	font-size: 3em;
+	font-size: 2.5em;
 	font-weight: 700;
 	letter-spacing: 3px;
 }
 
 h2 {
-	font-size: 2.0em;
-	font-weight: 300;
+	font-size: 1.75em;
+	font-weight: 400;
 	color: #3366cc;
 	letter-spacing: 1px;
 }
 
 h3 {
 	font-size: 1.25em;
-	line-height: 1.5em;
+	line-height: 1.25em;
 	font-weight: 400;
 	color: #dd0000;
 	padding-bottom: 5px;
@@ -70,6 +70,7 @@ h4 {
 }
 p {
 	line-height: 1.25em;
+	color: #565656;
 }
 
 nav {
@@ -131,8 +132,9 @@ a{
 .lander-text2{	
 	font-family: 'Catamaran', serif;
 	font-size: 2.5em;
+	letter-spacing: 1px;
 	text-transform: lowercase;
-	color: #fff;
+	color: #ccffff;
 	top: 40px;
 }
 
@@ -150,7 +152,7 @@ a{
 	color: #ffffcc;
 }
 .nav a{
-	color: #99ccff;
+	color: #ccffff;
 }
 
 .artwork{
@@ -175,7 +177,7 @@ a{
 
 #design{
 	text-align: left;
-	background-color: #99ccff;	
+	background-color: #ccc;	
  	position: relative;
 	text-decoration: none;
 }
@@ -183,7 +185,7 @@ a{
 #art{
 	text-align: left;
  	position: relative;
- 	background-color: #ccc;
+ 	background-color: #ccffff;
 }
 
 /*#left {
