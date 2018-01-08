@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran|Merriweather|Roboto');
+
+*	{
+	padding: 0px;
+	margin: 0;
+}
+
+/*	@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+font-family: 'Raleway', sans-serif;
+font-family: 'Vollkorn SC', serif;*/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px
+}
+
+header {
+	background-color: #ffffff;
+	padding: 10px 0px;
+}
+section {
+ 	width: 98%;
+}
+
+article{
+	padding: 20px;
+}
+main{
+	text-align: center;
+}
+
+footer{
+	text-align: left; 
+	background-color: #6e6e6e;
+	padding: 40px;
+}
+
+strong{
+	font-weight: 900;
+	color: #ffff99;
+}
+
+h1{
+	font-size: 2.5em;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+
+h2 {
+	font-size: 1.75em;
+	font-weight: 400;
+	color: #3366cc;
+	letter-spacing: 1px;
+}
+
+h3 {
+	font-size: 1.25em;
+	line-height: 1.25em;
+	font-weight: 400;
+	color: #dd0000;
+	padding-bottom: 5px;
+}
+
+h4 {
+	font-size: 1.25em;	
+    font-weight: 300;
+	font-style: italic;
+	color: #565656;
+	padding: 10px 0px 5px 10px; 	
+}
+p {
+	line-height: 1.25em;
+	color: #565656;
+}
+
+nav {
+	font-size: 1em;
+	margin: 10px;
+	padding: 10px;
+	float: right;
+}
+nav a{	
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding: 20px;
+    margin: 0px;
+    border:none; 
+}
+
+a{
+	color: ##3366cc;
+	text-decoration: none;
+
+}
+
+.sitelogo{
+	font-family: 'Merriweather', serif;
+	font-size: 2em;
+	color: #dd0000;
+	padding: 20px;
+	float: left;
+}
+
+.lander{
+	background:url(../assets/landerimage2.jpg) no-repeat top center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/*background-color: #87C8FC;*/
+	height: 480px;
+	position: relative;
+	text-align: center;
+}
+
+.lander-text {
+    font-family: 'Catamaran', serif;
+	font-size: 3.75em;
+	font-weight: 300;	
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	height: 210px;
+	color: #ffff33;
+	position: relative;
+	top: 130px;
+}
+
+
+.lander-text2{	
+	font-family: 'Catamaran', serif;
+	font-size: 2.5em;
+	letter-spacing: 1px;
+	text-transform: lowercase;
+	color: #ccffff;
+	margin-top: 40px;
+}
+
+.clearfloat{
+	clear: both;
+}
+
+.article {
+	width: 100%;
+ 	padding: 3%;
+ 	float: left;
+}
+
+.nav{
+	color: #ffffcc;
+}
+.nav a{
+	color: #ccffff;
+}
+
+.artwork{
+	width: 24%;
+ 	padding: 3%;
+ 	float: left;
+ }
+ .artwork-text{
+	width: 26%;
+ 	padding: 3%;
+ 	float: left;
+ }
+
+ #about{
+	background-color: white;
+	text-align: left;
+ 	position: relative;
+}
+#center{
+	text-align: center;
+}
+
+#design{
+	text-align: left;
+	background-color: #ccc;	
+ 	position: relative;
+	text-decoration: none;
+}
+
+#art{
+	text-align: left;
+ 	position: relative;
+ 	background-color: #ccffff;
+}
+
+/*#left {
+    margin: 20px;
+    padding: 2%; 
+    float: left;
+    width: 27%;
+}
+
+.clearfix:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}*/
+
+}
+#about-img{
+	height: 100px;
+}
+
+.footer{
+	color: #ffffff;
+	float: right;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+	font-size: 14px; 
+  }
+    nav {
+    float: none;
+  }
+    nav a {
+    float: none;
+	margin: 0 1.6em .75em 0;
+	}
+	img {
+    width: 320px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+ body {
+	font-size: 13px;
+	text-align: center; 
+}
+
+ nav {
+    display: block;
+    text-align: center;
+    padding: 0px;
+    margin: auto; 
+  }
+ nav a {
+    margin: 0 1em 1em;
+  }
+ h2 {
+  font-size: 1.25em;
+  display: inline;
+  }
+ h3, h4 {
+  	font-size: 1em;
+  }
+ p{
+  	font-size: .75em;
+  }
+ section, div {
+    width: 100%;
+    float: none;
+  }
+ img {
+    width: 230px;}
+
+ .article {
+    float: none;
+
+  }
+ .artwork, .artwork-text{
+  	width: 80%;
+  	padding: 2em;
+  	float: none;
+  	display: inline;
+  }
+
+ .lander-text2{
+ 	margin-top: 2em;
+ }
+
+
+}
