@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Catamaran|Merriweather|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Catamaran:500,800|Roboto:400,700');
 
 *	{
 	padding: 0px;
@@ -16,14 +17,14 @@ body {
 
 header {
 	background-color: #ffffff;
-	padding: 10px 0px;
+	padding: 10px 0 0 0;
 }
 section {
- 	width: 98%;
+ 	width: 100%;
 }
 
 article{
-	padding: 20px;
+
 }
 main{
 	text-align: center;
@@ -36,11 +37,13 @@ footer{
 }
 
 strong{
-	font-weight: 900;
+	font-weight: 800;
 	color: #ffff99;
+	letter-spacing: 2px;
 }
 
 h1{
+	font-family: Roboto;
 	font-size: 2.5em;
 	font-weight: 700;
 	letter-spacing: 3px;
@@ -51,6 +54,7 @@ h2 {
 	font-weight: 400;
 	color: #3366cc;
 	letter-spacing: 1px;
+	padding: 20px 0px 5px 20px; 
 }
 
 h3 {
@@ -63,10 +67,10 @@ h3 {
 
 h4 {
 	font-size: 1.25em;	
-    font-weight: 300;
+	font-weight: 400;
 	font-style: italic;
 	color: #565656;
-	padding: 10px 0px 5px 10px; 	
+	padding: 10px 0px 0px 20px; 	
 }
 p {
 	line-height: 1.25em;
@@ -76,14 +80,13 @@ p {
 nav {
 	font-size: 1em;
 	margin: 10px;
-	padding: 10px;
+	padding: 5px;
 	float: right;
 }
 nav a{	
 	font-family: 'Roboto', sans-serif;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-weight: 400;
 	letter-spacing: 1px;
 	padding: 20px;
     margin: 0px;
@@ -93,14 +96,12 @@ nav a{
 a{
 	color: ##3366cc;
 	text-decoration: none;
-
 }
 
 .sitelogo{
 	font-family: 'Merriweather', serif;
 	font-size: 2em;
 	color: #dd0000;
-	padding: 20px;
 	float: left;
 }
 
@@ -119,15 +120,14 @@ a{
 .lander-text {
     font-family: 'Catamaran', serif;
 	font-size: 3.75em;
-	font-weight: 300;	
-	letter-spacing: 1px;
+	font-weight: 500;	
+	letter-spacing: 0px;
 	text-transform: uppercase;
-	height: 210px;
+	height: 200px;
 	color: #ffff33;
 	position: relative;
-	top: 130px;
+	top: 150px;
 }
-
 
 .lander-text2{	
 	font-family: 'Catamaran', serif;
@@ -135,7 +135,7 @@ a{
 	letter-spacing: 1px;
 	text-transform: lowercase;
 	color: #ccffff;
-	margin-top: 40px;
+	margin-top: 50px;
 }
 
 .clearfloat{
@@ -144,7 +144,6 @@ a{
 
 .article {
 	width: 100%;
- 	padding: 3%;
  	float: left;
 }
 
@@ -176,8 +175,8 @@ a{
 }
 
 #design{
-	text-align: left;
-	background-color: #ccc;	
+	background-color: black;
+	text-align: left;	
  	position: relative;
 	text-decoration: none;
 }
@@ -185,7 +184,7 @@ a{
 #art{
 	text-align: left;
  	position: relative;
- 	background-color: #ccffff;
+ 	background-color: #ccc;
 }
 
 /*#left {
@@ -206,12 +205,13 @@ a{
 
 }
 #about-img{
-	height: 100px;
+	width: 160px;
 }
 
 .footer{
 	color: #ffffff;
 	float: right;
+	padding-top: 5px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -239,21 +239,29 @@ a{
  nav {
     display: block;
     text-align: center;
-    padding: 0px;
-    margin: auto; 
+    padding: 5px;
+    margin: 10px 0 0 0;
   }
  nav a {
-    margin: 0 1em 1em;
+    padding: 5px 0;
+    margin: 0px; 
+
   }
  h2 {
-  font-size: 1.25em;
-  display: inline;
+  font-size: 1.75em;
+  display: block;
   }
- h3, h4 {
-  	font-size: 1em;
+ h3 {
+  	font-size: 1.25em;
   }
+ h4 {
+  	font-size: 1.25em;
+  	padding-top: 5px;
+  }
+
  p{
-  	font-size: .75em;
+  	font-size: 1em;
+  	padding-bottom: 5px;
   }
  section, div {
     width: 100%;
@@ -261,21 +269,39 @@ a{
   }
  img {
     width: 230px;}
+ 
+ footer {
+    padding: 2em}    
 
  .article {
     float: none;
-
+ 	display: block;
   }
- .artwork, .artwork-text{
-  	width: 80%;
+
+ .artwork {
+  	width: 70%;
   	padding: 2em;
   	float: none;
-  	display: inline;
+  	display: block;
   }
+.artwork-text{
+	width: 70%;
+  	padding-bottom: 1em;
+  	float: none;
+  	display: block;
+}
 
+ .lander-text{
+ 	margin-top: .75em;
+ }
  .lander-text2{
  	margin-top: 2em;
  }
+#about-img{
+	width: 50%;
+}
+.footer {
+	float:none;
 
-
+}
 }
