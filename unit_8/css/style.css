@@ -175,7 +175,7 @@ a{
 }
 
 #design{
-	background-color: black;
+	background-color: #ccc;
 	text-align: left;	
  	position: relative;
 	text-decoration: none;
@@ -184,7 +184,7 @@ a{
 #art{
 	text-align: left;
  	position: relative;
- 	background-color: #ccc;
+ 	background-color: #ccffff;
 }
 
 /*#left {
