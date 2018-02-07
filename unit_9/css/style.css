@@ -39,7 +39,7 @@ strong{
 h1{
 	font-size: 2.5em;
 	font-weight: 700;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 }
 h2,
 h3,
@@ -58,9 +58,8 @@ h2 {
 h3 {
 	font-size: 1.25em;
 	font-weight: 700;
-	letter-spacing: 0px;
+	line-height: 1.25em;
 	color: #4c82ad;
-	padding-bottom: 0px;
 }
 
 h4 {
@@ -222,20 +221,20 @@ a{
 }
 
 @media only screen and (max-width: 800px) {
-  body {
+body {
 	font-size: 14px; 
   }
-    nav a {
+ nav a {
     float: none;
 	margin: 0 1em 1em 0;
 	}
-	img {
-    width: 320px;
+ img {
+    width: 420px;
   }
 }
 
 @media only screen and (max-width: 480px) {
- body {
+body {
 	font-size: 13px;
 	text-align: center; 
 }
